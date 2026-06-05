@@ -15,7 +15,7 @@ services:
 
   django_app:
    image: "priyanshusha/priyanshu:latest"
-    image: django_a
+    image: django_
     container_name: "django_cont"
     ports:
       - "8000:8000"
