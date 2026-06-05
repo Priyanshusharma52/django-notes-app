@@ -14,7 +14,7 @@ pipeline{
             dockerbuild("notes-app","latest")
             }
         }
-        stage("Push to DockerHb"){
+        stage("Push to Dockerb"){
             steps{
                 dockerpush("dockerHubCreds","notes-app","latest")
             }
